@@ -4,6 +4,13 @@
 	<groupId>com.efsavage</groupId>
 	<artifactId>hello-world-war</artifactId>
 	<version>1.0.0</version>
+	 <distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ip-172-31-25-93-snapshots</name>
+        <url>http://52.91.53.170:8081/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
+</distributionManagement>
 	<packaging>war</packaging>
 	<name>Hello World Web Application Repository</name>
 	<description>Simplest possible Java Webapp</description>
