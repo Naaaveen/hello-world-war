@@ -4,7 +4,7 @@ pipeline {
       stage ('checkout') {
         steps {
                 sh 'rm -rf hello-world-war'
-                sh 'git pull https://github.com/Naaaveen/hello-world-war.git'
+                sh 'git clone https://github.com/Naaaveen/hello-world-war.git'
                 sh 'pwd'
                 sh 'ls'
         }
